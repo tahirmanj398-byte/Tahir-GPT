@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- SEO & Google-Friendly Meta Tags - Added by Tahir -->
+    <title>Tahir GPT | Official Professional AI Assistant | Smart & Human-Like AI</title>
+    <meta name="description" content="Tahir GPT is the official professional AI assistant designed for creators and professionals. Experience emotionally intelligent, accurate, and human-like AI conversations, image generation, and website building." />
+    <meta name="keywords" content="Tahir GPT, Official Tahir AI, Professional AI Assistant, Human-like AI, Smart Chatbot, AI Image Generator, AI Website Builder, Tahir GPT Official" />
+    <meta name="author" content="Tahir Manj" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- PWA Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Tahir GPT">
+    <link rel="icon" type="image/svg+xml" href="/icon.svg">
+    <link rel="apple-touch-icon" href="/icon.svg">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#09090b">
+    
+    <!-- Open Graph / Facebook SEO Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tahir GPT | Official Professional AI Assistant" />
+    <meta property="og:description" content="Experience the next generation of AI with Tahir GPT. A professional, emotionally intelligent AI for creators." />
+    <meta property="og:image" content="https://picsum.photos/seed/tahirgpt/1200/630" />
+    <meta property="og:url" content="https://tahirgpt.com" />
+    <meta property="og:site_name" content="Tahir GPT" />
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID" crossorigin="anonymous"></script>
+
+    <!-- Twitter SEO Tags -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Tahir GPT - Free AI Chatbot" />
+    <meta property="twitter:description" content="Tahir GPT is a free AI chatbot created by Tahir. Chat smartly and instantly." />
+    <meta property="twitter:image" content="https://picsum.photos/seed/tahirgpt/1200/630" />
+    <!-- End SEO Tags -->
+
+    <!-- Google AdSense Placeholder - Replace with your actual AdSense ID later -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script> -->
+    <script>
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = event.reason;
+        if (typeof reason === 'string' && reason.includes('WebSocket closed')) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        } else if (reason && reason.message && reason.message.includes('WebSocket closed')) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-gray-50 dark:bg-black">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,5 @@
+# Robots.txt for Tahir GPT - Added by Tahir
+User-agent: *
+Allow: /
+
+Sitemap: https://ais-pre-dnuskyo4odpkeq55ji25uk-500977484605.asia-southeast1.run.app/sitemap.xml

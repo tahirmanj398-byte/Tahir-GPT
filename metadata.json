@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Tahir GPT Pro1",
+  "description": "The ultimate AI platform for high-performance creativity. Featuring advanced chat, image generation, and instant website deployment with multi-provider fallback.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
